@@ -26,14 +26,14 @@ h6 {
 
 .parallax {
   /* The image used */
-  background-image: url("../assets/jess-long.jpeg");
+  background-image: url("../assets/JLF-hero-yellow.png");
 
   /* Set a specific height */
-  min-height: 500px;
+  min-height: 650px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
