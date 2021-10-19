@@ -44,8 +44,10 @@
 
     <main>
       <div class="parallax">
-        <h1>Full-stack engineer</h1>
-        <p>Welcome to my portfolio</p>
+        <div id="hero-text">
+          <h1>Jess LaFrank</h1>
+          <p>Full-stack engineer</p>
+        </div>
       </div>
 
       <div class="text-center p-5" id="hello">
@@ -82,7 +84,7 @@
 
       <div class="container text-center">
         <div class="card-group m-5">
-          <div class="card">
+          <div class="card bg-light">
             <div class="card-body">
               <h5 class="card-title my-4">E-COM</h5>
               <p class="card-text my-4"></p>
@@ -101,7 +103,7 @@
             </div>
           </div>
 
-          <div class="card">
+          <div class="card bg-light">
             <div class="card-body">
               <h5 class="card-title my-4">TECH</h5>
               <p class="card-text my-4"></p>
@@ -127,7 +129,7 @@
             </div>
           </div>
 
-          <div class="card">
+          <div class="card bg-light">
             <div class="card-body">
               <h5 class="card-title my-4">LEADERSHIP</h5>
               <p class="card-text my-4"></p>
@@ -146,10 +148,59 @@
         </div>
       </div>
 
-      <div class="container py-5">
+      <div class="container py-5 mx-auto">
         <h2 class="text-center">Recent Work</h2>
+        <div class="card mb-3 mx-auto bg-light" style="max-width: 1000px;">
+          <div class="row no-gutters">
+            <div class="col-md-8">
+              <img
+                src="./assets/things-to-do.png"
+                class="card-img-top"
+                alt="Things To Do"
+              />
+            </div>
+            <div class="col-md-4">
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  <a
+                    href="http://calm-falls-13073.herokuapp.com/"
+                    target="_blank"
+                    >Things To Do</a
+                  >
+                </h5>
+                <p class="card-text">
+                  Things To Do is a full-stack MERN application designed to help
+                  users come up with things to do when bored.
+                </p>
+                <ul>
+                  <li>
+                    React, React-Bootstrap, Express, Node, MongoDB, Heroku
+                  </li>
+                  <li>Random ideas are fetched from The Bored API.</li>
+                  <li>
+                    Fully CRUD functional, utilizing bcrypt, passport, and jwt
+                    for user authentication.
+                  </li>
+                  <li>
+                    Link to
+                    <a
+                      href="http://calm-falls-13073.herokuapp.com/"
+                      target="_blank"
+                      >App</a
+                    >, link to
+                    <a
+                      href="https://github.com/jlafrank1/things-to-do-fe"
+                      target="_blank"
+                      >GitHub</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <div class="card mb-3" style="max-width: 1000px;">
+        <div class="card mb-3 mx-auto bg-light" style="max-width: 1000px;">
           <div class="row no-gutters">
             <div class="col-md-8">
               <img
@@ -189,57 +240,7 @@
           </div>
         </div>
 
-        <div class="card mb-3" style="max-width: 1000px;">
-          <div class="row no-gutters">
-            <div class="col-md-8">
-              <img
-                src="./assets/things-to-do.png"
-                class="card-img-top"
-                alt="Things To Do"
-              />
-            </div>
-            <div class="col-md-4">
-              <div class="card-body">
-                <h5 class="card-title text-center">
-                  <a
-                    href="http://calm-falls-13073.herokuapp.com/"
-                    target="_blank"
-                    >Things To Do</a
-                  >
-                </h5>
-                <p class="card-text">
-                  Things To Do is a full stack MERN application designed to help
-                  users come up with things to do when bored.
-                </p>
-                <ul>
-                  <li>
-                    React, React-Bootstrap, Express, Node, MongoDB, Heroku
-                  </li>
-                  <li>Random ideas are fetched from The Bored API.</li>
-                  <li>
-                    Fully CRUD functional, utilizing bcrypt, passport, and jwt
-                    for user authentication.
-                  </li>
-                  <li>
-                    Link to
-                    <a
-                      href="http://calm-falls-13073.herokuapp.com/"
-                      target="_blank"
-                      >App</a
-                    >, link to
-                    <a
-                      href="https://github.com/jlafrank1/things-to-do-fe"
-                      target="_blank"
-                      >GitHub</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3" style="max-width: 1000px;">
+        <div class="card mb-3 mx-auto bg-light" style="max-width: 1000px;">
           <div class="row no-gutters">
             <div class="col-md-8">
               <img
@@ -285,7 +286,7 @@
           </div>
         </div>
 
-        <div class="card mb-3" style="max-width: 1000px;">
+        <div class="card mb-3 mx-auto bg-light" style="max-width: 1000px;">
           <div class="row no-gutters">
             <div class="col-md-8">
               <img
@@ -356,12 +357,12 @@
             class="p-3"
             href="https://www.linkedin.com/in/jesslafrank/"
             target="_blank"
-            >LinkedIn</a
+            ><i class="bi bi-linkedin"></i> LinkedIn</a
           >
         </li>
         <li class="nav-item">
           <a class="p-3" href="https://github.com/jlafrank1" target="_blank"
-            >GitHub</a
+            ><i class="bi bi-github"></i> GitHub</a
           >
         </li>
         <li class="nav-item">
@@ -369,7 +370,7 @@
             class="p-3"
             href="https://www.instagram.com/blood.sweat.and.ears/"
             target="_blank"
-            >Instagram</a
+            ><i class="bi bi-instagram"></i> Instagram</a
           >
         </li>
       </ul>
