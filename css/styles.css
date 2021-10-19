@@ -15,10 +15,6 @@ nav,
 footer {
   background-color: var(--ltblue);
 }
-/*
-footer.page-footer {
-  margin-top: 0;
-} */
 
 #hello {
   background-image: linear-gradient(var(--ltgreen), var(--ltblue));

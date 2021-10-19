@@ -29,20 +29,20 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="nav justify-content-end p-3">
-          <li class="nav-item"><a class="p-3" href="#">About</a></li>
+      <nav class="fixed-top">
+        <ul class="nav justify-content-end p-2">
+          <li class="nav-item"><a class="p-3" href="#hello">About</a></li>
           <li class="nav-item">
-            <a class="p-3" href="#">Projects</a>
+            <a class="p-3" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="p-3" href="#">Contact</a>
+            <a class="p-3" href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main>
+    <main class="pt-4">
       <div class="parallax">
         <div id="hero-text">
           <h1>Jess LaFrank</h1>
@@ -82,7 +82,7 @@
         </div>
       </div>
 
-      <div class="container text-center">
+      <div class="container text-center" id="tech">
         <div class="card-group m-5">
           <div class="card bg-light">
             <div class="card-body">
@@ -148,7 +148,7 @@
         </div>
       </div>
 
-      <div class="container py-5 mx-auto">
+      <div class="container py-5 mx-auto" id="projects">
         <h2 class="text-center">Recent Work</h2>
         <div class="card mb-3 mx-auto bg-light" style="max-width: 1000px;">
           <div class="row no-gutters">
@@ -341,7 +341,7 @@
         <!-- ends recent work container -->
       </div>
 
-      <div class="container text-center mb-5">
+      <div class="container text-center mb-5" id="contact">
         <h2>Contact Me</h2>
         <p>
           Please reach out to me on LinkedIn to connect, especially if you are
