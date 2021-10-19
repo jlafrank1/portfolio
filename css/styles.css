@@ -3,7 +3,7 @@
   --teal: #588b8b;
   --ltgreen: #f1faee;
   --ltblue: #a8dadc;
-  --red: #c8553d;
+  --red: #fe5f55;
 }
 /* background-color: var(--white); */
 
@@ -15,6 +15,10 @@ nav,
 footer {
   background-color: var(--ltblue);
 }
+/*
+footer.page-footer {
+  margin-top: 0;
+} */
 
 #hello {
   background-image: linear-gradient(var(--ltgreen), var(--ltblue));
@@ -29,7 +33,11 @@ h5,
 h6 {
   font-family: "Work Sans", sans-serif;
   font-weight: bold;
-  text-shadow: 1px 1px 2px var(--teal);
+  text-shadow: 1px 1px 3px var(--teal);
+}
+
+.btn {
+  color: var(--teal);
 }
 
 #tagline {
@@ -55,4 +63,31 @@ h6 {
   .parallax {
     background-attachment: scroll;
   }
+}
+
+a {
+  font-weight: bold;
+  /* background-color: var(--teal); */
+  color: var(--red);
+  /* padding: 1em 1.5em; */
+  /* text-transform: uppercase; */
+  text-decoration: none;
+}
+
+@keyframes bounce {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: translate(5px);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+a:hover {
+  text-shadow: 1px 1px 2px #bebebe;
+  animation: bounce 1s;
+  color: var(--red);
 }

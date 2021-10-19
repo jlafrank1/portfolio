@@ -30,10 +30,14 @@
   <body>
     <header>
       <nav>
-        <ul class="nav justify-content-end">
-          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <ul class="nav justify-content-end p-3">
+          <li class="nav-item"><a class="p-3" href="#">About</a></li>
+          <li class="nav-item">
+            <a class="p-3" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="p-3" href="#">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -145,25 +149,22 @@
       <div class="container py-5">
         <h2 class="text-center">Recent Work</h2>
 
-        <div class="row">
-          <div class="col-6">
-            <div class="card">
-              <div class="card-header">
-                <a href="https://sk8r.herokuapp.com/" target="_blank"
-                  >sk8collector</a
-                >
-              </div>
+        <div class="card mb-3" style="max-width: 1000px;">
+          <div class="row no-gutters">
+            <div class="col-md-8">
               <img
                 src="./assets/img-sk8-list.png"
                 class="card-img-top"
                 alt="sk8collector"
               />
+            </div>
+            <div class="col-md-4">
               <div class="card-body">
-                <!-- <h5 class="card-title">
-                <a href="https://sk8r.herokuapp.com/" target="_blank"
-                  >sk8collector</a
-                >
-              </h5> -->
+                <h5 class="card-title text-center">
+                  <a href="https://sk8r.herokuapp.com/" target="_blank"
+                    >sk8collector</a
+                  >
+                </h5>
                 <p class="card-text">
                   sk8collector is a multi-user Django app designed to help
                   manage rollerskate collections.
@@ -186,25 +187,26 @@
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-6">
-            <div class="card">
-              <div class="card-header">
-                <a href="http://calm-falls-13073.herokuapp.com/" target="_blank"
-                  >Things To Do</a
-                >
-              </div>
+        <div class="card mb-3" style="max-width: 1000px;">
+          <div class="row no-gutters">
+            <div class="col-md-8">
               <img
                 src="./assets/things-to-do.png"
                 class="card-img-top"
                 alt="Things To Do"
               />
+            </div>
+            <div class="col-md-4">
               <div class="card-body">
-                <!-- <h5 class="card-title">
-                <a href="http://calm-falls-13073.herokuapp.com/" target="_blank"
-                  >Things To Do</a
-                >
-              </h5> -->
+                <h5 class="card-title text-center">
+                  <a
+                    href="http://calm-falls-13073.herokuapp.com/"
+                    target="_blank"
+                    >Things To Do</a
+                  >
+                </h5>
                 <p class="card-text">
                   Things To Do is a full stack MERN application designed to help
                   users come up with things to do when bored.
@@ -235,29 +237,24 @@
               </div>
             </div>
           </div>
-
-          <!-- ends row -->
         </div>
 
-        <div class="row py-4">
-          <div class="col-6">
-            <div class="card">
-              <div class="card-header">
-                <a href="https://jamlist.herokuapp.com/" target="_blank"
-                  >JAMList</a
-                >
-              </div>
+        <div class="card mb-3" style="max-width: 1000px;">
+          <div class="row no-gutters">
+            <div class="col-md-8">
               <img
                 src="./assets/jamlist.png"
                 class="card-img-top"
                 alt="jamlist"
               />
+            </div>
+            <div class="col-md-4">
               <div class="card-body">
-                <!-- <h5 class="card-title">
-                <a href="https://jamlist.herokuapp.com/" target="_blank"
-                  >JAMList</a
-                >
-              </h5> -->
+                <h5 class="card-title text-center">
+                  <a href="https://jamlist.herokuapp.com/" target="_blank"
+                    >JAMList</a
+                  >
+                </h5>
                 <p class="card-text">
                   JAMList is an app to help users create shopping lists
                   associated with various stores.
@@ -286,28 +283,26 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
-            <div class="card">
-              <div class="card-header">
-                <a
-                  href="https://jlafrank1.github.io/racing-game-2021/"
-                  target="_blank"
-                  >Don't Eat That</a
-                >
-              </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 1000px;">
+          <div class="row no-gutters">
+            <div class="col-md-8">
               <img
                 src="./assets/dont-eat-that.png"
                 class="card-img-top"
                 alt="Don't Eat That!"
               />
+            </div>
+            <div class="col-md-4">
               <div class="card-body">
-                <!-- <h5 class="card-title">
-                <a
-                  href="https://jlafrank1.github.io/racing-game-2021/"
-                  target="_blank"
-                  >Don't Eat That!</a
-                >
-              </h5> -->
+                <h5 class="card-title text-center">
+                  <a
+                    href="https://jlafrank1.github.io/racing-game-2021/"
+                    target="_blank"
+                    >Don't Eat That!</a
+                  >
+                </h5>
                 <p class="card-text">
                   Don’t Eat That is an in-browser, human-versus-computer racing
                   game.
@@ -354,27 +349,24 @@
       </div>
     </main>
 
-    <footer>
+    <footer class="p-3">
       <ul class="nav justify-content-end">
         <li class="nav-item">
           <a
-            class="nav-link"
+            class="p-3"
             href="https://www.linkedin.com/in/jesslafrank/"
             target="_blank"
             >LinkedIn</a
           >
         </li>
         <li class="nav-item">
-          <a
-            class="nav-link"
-            href="https://github.com/jlafrank1"
-            target="_blank"
+          <a class="p-3" href="https://github.com/jlafrank1" target="_blank"
             >GitHub</a
           >
         </li>
         <li class="nav-item">
           <a
-            class="nav-link"
+            class="p-3"
             href="https://www.instagram.com/blood.sweat.and.ears/"
             target="_blank"
             >Instagram</a
