@@ -5,16 +5,24 @@
   --ltblue: #a8dadc;
   --red: #c8553d;
 }
-  /* background-color: var(--white); */
+/* background-color: var(--white); */
 
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Work Sans', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
 }
 
+#tagline {
+  margin: 0 0 40px 0;
+}
 
 .parallax {
   /* The image used */
@@ -29,7 +37,6 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
