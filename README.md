@@ -2,18 +2,21 @@
 
 ## About The Project
 
-This is where my Portfolio lives.
+Hey! Nice to see you. This is where my Portfolio lives. Thanks for checking it out!
 
-## Overview & User Stories
+## Overview
 
-- All users can generate random things to do when bored
+I started this website during the first few weeks of a software engineer bootcamp in Summer/Fall 2021. Since completing bootcamp, I have learned other technologies that I look forward to implementing into this website. As I make updates, I will update my roadmap (below). Thank you for your interest!
 
 ### How it started:
 
+Featuring my geriatric pup, Scout, AKA the world's best placeholder image generator:
 ![Old WireFrame](./assets/wireframe-old.png)
 ![Old WireFrame](./assets/wireframe-old-2.png)
 
 ### How it's going:
+
+Featuring my very own face, and some neat background colors (Is that a gradient?! Yes it's a gradient!!):
 
 ![Things To Do Landing Page](./assets/scrnshot.png)
 
@@ -36,6 +39,7 @@ This is an HTML/CSS/JavaScript page. I plan to refactor this with React, and pot
 
 - [] Optimize for mobile
 - [] Refactor as a MERN application
+- [] Add a "Contact Me" form
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
