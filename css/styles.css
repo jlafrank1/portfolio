@@ -11,6 +11,16 @@
   font-family: "Inter", sans-serif;
 }
 
+nav,
+footer {
+  background-color: var(--ltblue);
+}
+
+#hello {
+  background-image: linear-gradient(var(--ltgreen), var(--ltblue));
+  /* width: 100%; */
+}
+
 h1,
 h2,
 h3,
@@ -26,7 +36,7 @@ h6 {
 
 .parallax {
   /* The image used */
-  background-image: url("../assets/JLF-hero-yellow.png");
+  background-image: url("../assets/JLF-hero.png");
 
   /* Set a specific height */
   min-height: 650px;
