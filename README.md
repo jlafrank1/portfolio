@@ -10,20 +10,18 @@ This is where my Portfolio lives.
 
 ### How it started:
 
-Wireframe
 ![Old WireFrame](./assets/wireframe-old.png)
 ![Old WireFrame](./assets/wireframe-old-2.png)
 
 ### How it's going:
 
-Landing Page when not logged in
-![Things To Do Landing Page](./assets/scrn_loggedout.png)
+![Things To Do Landing Page](./assets/scrnshot.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
-This is an HTML/CSS/JavaScript page. I plan to refactor this with React, and potentially a back-end technology such as Express.
+This is an HTML/CSS/JavaScript page. I plan to refactor this with React, and potentially add a back-end technology such as Express.
 
 - HTML
 - CSS
